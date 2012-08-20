@@ -1,0 +1,8 @@
+# config/facebook.yml
+development:
+  app_id: '356397151103655'
+  secret_key: '9cb0c1b2922e9a5a9c28b2740274312a'
+  fblogin_callback_url: 'http://54.245.118.227/users/fb_login_callback'
+test:
+
+production:
