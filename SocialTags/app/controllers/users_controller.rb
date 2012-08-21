@@ -5,6 +5,6 @@ class UsersController < ApplicationController
 
 		end
 	end
-	def singup
+	def signup
 	end
 end
