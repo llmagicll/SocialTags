@@ -1,0 +1,9 @@
+<%= form_for @user, :url => { :controller => 'users', :action => 'create' } do |u| %>
+    <%= u.label :email, "Email" %>
+    <%= u.text_field :email %>
+    
+    <%= u.label :password, "Password" %>
+    <%= u.text_field :password %>
+    
+    <%= u.submit "Signup" %>
+<% end %>
